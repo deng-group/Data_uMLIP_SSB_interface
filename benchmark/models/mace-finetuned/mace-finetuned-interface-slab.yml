@@ -1,0 +1,8 @@
+model_name: MACE fine-tuned on LiPON(100)/Li(210) interfaces and slabs
+model_key: mace-finetuned-interface-slab
+checkpoint: Finetuning/Mace_interface_slab_finetuned.model
+notes:
+  description: Fine-tuned from MACE-MP-0a medium on DFT data of the LiPON(100)/Li(210) interface (Figure 5).
+environment:
+  dependencies:
+    - mace-torch==0.3.15

@@ -1,0 +1,8 @@
+model_name: MACE-MH-0 (OMat head)
+model_key: mace-mh-0
+checkpoint: mace-mh-0.model
+notes:
+  description: One of the six uMLIPs benchmarked in the paper.
+environment:
+  dependencies:
+    - mace-torch==0.3.15

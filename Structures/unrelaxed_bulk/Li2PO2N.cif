@@ -1,0 +1,170 @@
+data_Li2PO2N
+
+_chemical_formula_moiety          'Li2 P1 O2 N1'
+_chemical_formula_structural      'Li2 P1 O2 N1'
+_chemical_formula_sum        'Li2 N1 O2 P1'
+_chemical_formula_weight    90.86
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_H-M   'C m c 21'
+_symmetry_Int_Tables_number      36
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 -x,-y,1/2+z
+2 -x,y,z
+3 1/2-x,1/2-y,1/2+z
+4 1/2-x,1/2+y,z
+5 x,-y,1/2+z
+6 x,y,z
+7 1/2+x,1/2-y,1/2+z
+8 1/2+x,1/2+y,z
+_cell_length_a                   9.06917(38)
+_cell_length_b                   5.39988(24)
+_cell_length_c                   4.68562(19)
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_volume                     229.466
+_cell_formula_units_Z     4                  
+_cell_measurement_temperature     295 
+_exptl_crystal_density_diffrn     2.630 
+_exptl_crystal_F_000              176 
+_exptl_absorpt_coefficient_mu     8.18      
+#==============================================================================
+_exptl_special_details 
+; 
+#  Cell Mass                                 363.446
+# Results of Mean Crystallite Size as determined using Bruker-AXS
+# TOPAS Software based on the Scherrer Equation
+#   Crystallite Size 
+#      Cry size Lorentzian (nm)               94.0
+#      Cry size Gaussian (nm)                 293.8
+#      k:  1  LVol-IB (nm)                    56.370
+#      k:  0.89  LVol-FWHM (nm)               76.259
+#   Crystal Linear Absorption Coeff. (1/cm)   81.779
+#   Crystal Density (g/cm^3^)                  2.630
+#
+#The Scherrer equation is used to relate the width of the diffraction peak
+#(where fwhm is defined as the width of the peak at 1/2 maximum intensity)
+#to the size of the crystallites, expressed as : D = 0.9?/?cos? where D is
+#crystallite size in nm, ? is wavelength of XRD instrument, ? is the width
+#of the peak at fwhm and ? is the Bragg angle of the peak.
+;
+_pd_spec_mounting                          
+;
+ packed powder 
+;
+_pd_spec_mount_mode         reflection 
+# options are 'reflection' or 'transmission'
+#=======================================================================
+
+#  EXPERIMENTAL DATA
+
+
+# This following item is used to identify the equipment used to record the
+# powder pattern at WFU
+
+_pd_instr_location
+; 
+ Salem Hall, Room 11
+;
+
+_diffrn_ambient_temperature     295                    
+_diffrn_source              'sealed X-ray tube'        
+_diffrn_source_target            Cu                                     
+_diffrn_source_type               ?
+_diffrn_measurement_device_type  'Bruker-AXS D2PHASER'       
+_diffrn_detector               'Lynxeye 1D'               
+_diffrn_detector_type             ?        
+
+loop_
+    _diffrn_radiation_type                   
+    _diffrn_radiation_wavelength             
+
+       CuK\a~1~ 1.54056
+       CuK\a~2~ 1.54439
+
+_diffrn_radiation_monochromator   none                 
+
+# The following give details of the measured (not processed)
+# powder pattern.  Angles are in degrees.
+                              
+_pd_meas_2theta_range_min         10                   
+_pd_meas_2theta_range_max        90                   
+_pd_meas_2theta_range_inc          0.014
+#==============================================================================
+# The following fields are used to identify the programs used.
+
+_computing_data_collection        'Bruker-AXS Diffrac.Suite'
+_computing_cell_refinement        'Bruker-AXS TOPAS'
+_computing_structure_solution     'Bruker-AXS TOPAS'
+_computing_structure_refinement   'Bruker-AXS TOPAS'
+_computing_molecular_graphics
+;   Bruker-AXS TOPAS and K. Momma and F. Izumi, "VESTA 3 for three-dimensional
+ visualization of crystal, volumetric and morphology data," J. Appl. 
+ Crystallogr., 44, 1272-1276 (2011).
+;
+_computing_publication_material   'CCDC enCIFer'
+#====================================================================
+# REFINEMENT DETAILS from TOPAS
+#
+#   R-Values 
+#
+#   Rexp : 1.55    Rwp : 7.05     Rp  : 5.53   GOF : 4.55
+#   Rexp`: 3.47    Rwp`: 15.82    Rp` : 16.88  DW  : 0.11
+#====================================================================
+# ATOMIC COORDINATES AND DISPLACEMENT PARAMETERS
+#====================================================================
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_B_iso_or_equiv
+P1 P 4 0.00000  0.34144(33)  0.0000  1 0.86
+O1 O 8 0.35182(28) 0.69135(53) 0.9190(12)  1 1.30
+N1 N 4 0.00000     0.6312(10)  0.8538(15) 1 1.30
+Li1 Li 8  0.32810(71) 0.3621(16)  0.9829(49)  1 1.565
+
+#
+#P1    4   0.00000     0.34144(33) 0.00000   
+#O1    8   0.35182(28) 0.69135(53) 0.9190(12) 
+#N1    4   0.00000     0.6312(10)  0.8538(15)  
+#Li1   8   0.32810(71) 0.3621(16)  0.9829(49)
+#============================================================================
+#============================================================================
+_geom_special_details 
+; 
+# MOLECULAR GEOMETRY from TOPAS refinement
+# Detailed analysis from TOPAS software
+# number after : refers to symmetry equivalent position as outlined above
+# 
+#P1:0    O1:6      -1   0   0   1.6146(29) 
+#        O1:4       0   0   0   1.6146(29)  112.67(24)
+#        N1:1       0  -1   1   1.6645(71)  106.19(22) 106.19(22)
+#        N1:0       0   0   0   1.7080(60)  108.54(25) 111.44(17) 111.44(17)
+#
+#
+#O1:0    P1:2      -1  -1   0   1.6146(29) 
+#        Li1:0      0   0   0   1.816(10)  123.46(39)
+#        Li1:6     -1  -1   0   1.8979(87)  110.35(45) 115.76(38)
+#        Li1:1      0  -1   0   2.075(23)  97.69(69) 90.80(65) 112.81(32)
+#
+#
+#N1:0    P1:1       0  -1   0   1.6645(71) 
+#        P1:0       0   0   0   1.7080(60)  118.73(36)
+#        Li1:4      0  -1   0   2.086(11)  115.55(47) 103.63(64)
+#        Li1:6     -1  -1   0   2.086(11)  96.74(64) 115.55(47) 103.63(64)
+#
+#
+#Li1:0   O1:0       0   0   0   1.816(10) 
+#        O1:6      -1   0   0   1.8979(87)  123.47(61)
+#        O1:1       0  -1   1   2.075(23)  100.19(74) 106.63(85)
+#        N1:2      -1   0   0   2.086(11)  97.17(59) 107.85(60) 116.67(64)
+#        O1:1       0  -1   0   2.667(28)  65.65(69) 162.25(44) 81.98(86) 86.16(95)
+;
+#END
+#===========================================================================

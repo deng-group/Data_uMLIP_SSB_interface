@@ -1,0 +1,9 @@
+model_name: PET-OAM-XL
+model_key: pet-oam-xl-1.0.0
+checkpoint: pet-oam-xl-v1.0.0.ckpt
+notes:
+  matbench_discovery: https://github.com/janosh/matbench-discovery/blob/main/models/pet/pet-oam-xl-1.0.0.yml  # same model_key
+  description: One of the six uMLIPs benchmarked in the paper.
+environment:
+  dependencies:
+    - upet

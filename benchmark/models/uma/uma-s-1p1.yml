@@ -1,0 +1,8 @@
+model_name: UMA-s-1.1 (OMat task)
+model_key: uma-s-1p1
+checkpoint: uma-s-1p1.pt
+notes:
+  description: One of the six uMLIPs benchmarked in the paper.
+environment:
+  dependencies:
+    - fairchem-core

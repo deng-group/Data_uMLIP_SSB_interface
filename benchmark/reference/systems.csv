@@ -1,0 +1,7 @@
+system,film_bulk,substrate_bulk,film_oriented_bulk,substrate_oriented_bulk,film_layers,substrate_layers
+Li2O,Li2O_Fm3m_ICSD,Li_supercell_IM3m,Li2O_Fm3m_ICSD,Li,7,7
+Li2S,Li2S_FM3M_ICSD,Li_supercell_IM3m,Li2S_FM3M_ICSD,Li,7,7
+LiCl,LiCl_FM3M_ICSD,Li_supercell_IM3m,LiCl_FM3M_ICSD,Li,7,7
+beta_Li3PO4,beta_Li3PO4,Li_supercell_IM3m,beta_Li3PO4,Li,7,7
+gamma_Li3PO4,gamma_Li3PO4_ICSD,Li_supercell_IM3m,gamma_Li3PO4_ICSD,Li,7,7
+LiPON,Li2PO2N,Li_supercell_IM3m,Li2PO2N,Li,7,7

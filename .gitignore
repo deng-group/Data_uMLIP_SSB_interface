@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.DS_Store
+benchmark/results/
+benchmark/leaderboard.csv
+# pre-trained checkpoints downloaded or compiled into the repository root
+*.pt
+*.pt2
+*.ckpt
+*.model
+!Finetuning/*.model

@@ -1,0 +1,18 @@
+# only the packages for the benchmark, each model's package is in its .yml
+# use one env per model (some need different e3nn versions), for example
+#     conda env create -f environment.yml -n bench-mace && conda activate bench-mace
+#     pip install mace-torch==0.3.15
+# keep pymatgen at 2025.10.7, its lattice matching changed after that and newer versions
+# give different supercells for 4 of the DFT interfaces
+name: mlip-interfaces
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - pip
+  - pip:
+      - ase
+      - pymatgen==2025.10.7
+      - ruamel.yaml

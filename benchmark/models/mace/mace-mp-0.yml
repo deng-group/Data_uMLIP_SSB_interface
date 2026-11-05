@@ -1,0 +1,9 @@
+model_name: MACE-MP-0a (medium; pre-trained baseline of the fine-tuning study)
+model_key: mace-mp-0
+checkpoint: 2023-12-03-mace-128-L1_epoch-199.model
+notes:
+  matbench_discovery: https://github.com/janosh/matbench-discovery/blob/main/models/mace/mace-mp-0.yml  # same model_key
+  description: Pre-trained baseline of the MACE fine-tuning study (Figure 5).
+environment:
+  dependencies:
+    - mace-torch==0.3.15

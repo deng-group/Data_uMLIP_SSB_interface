@@ -1,0 +1,10 @@
+model_name: Allegro-OAM-L
+model_key: allegro-oam-l-0.1
+checkpoint: mir-group__Allegro-OAM-L__0.1.nequip.pt2
+notes:
+  matbench_discovery: https://github.com/janosh/matbench-discovery/blob/main/models/allegro/allegro-oam-l-0.1.yml  # same model_key
+  description: One of the six uMLIPs benchmarked in the paper.
+environment:
+  dependencies:
+    - nequip
+    - nequip-allegro

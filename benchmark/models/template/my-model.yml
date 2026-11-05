@@ -1,0 +1,40 @@
+# one yml per model, with the same keys as a Matbench Discovery model yml so it can be submitted there too
+# (models/<family>/<model_key>.yml in github.com/janosh/matbench-discovery, checked by their tests/model-schema.yml)
+# copy this folder to models/<family>/, rename both files to your model_key and fill it in
+# if the model is already in Matbench Discovery use its model_key
+# don't add metrics.interface, run_benchmark.py writes it
+model_name: My model                 # human-readable name
+model_key: my-model                  # lowercase kebab-case; names the results folder
+model_version: 1.0.0
+dates:
+  benchmark_added: '2026-01-01'
+  paper_published: '2026-01-01'
+lifecycle: active
+authors:
+  - name: Your Name
+    affiliation: Your Institution
+    email: you@example.org
+    orcid: https://orcid.org/0000-0000-0000-0000
+repo: https://github.com/<user>/<repo>
+doi: https://doi.org/10.5281/zenodo.0000000
+paper: https://arxiv.org/abs/xxxx.xxxxx
+pr_url: https://github.com/janosh/matbench-discovery/pull/<number>   # once submitted there
+checkpoint_url: https://url.of/model-checkpoint
+license:
+  code: MIT
+  code_url: https://url.of/code-license
+  checkpoint: CC-BY-4.0
+  checkpoint_url: https://url.of/checkpoint-license
+environment:
+  dependencies:
+    - my-model-package==1.0
+  python_version: '3.11'
+openness: OSOD
+architecture_types: [gnn]
+train_task: S2EFS
+test_task: IS2RE-SR
+targets: EFS_G
+training_sets: [OMat24]              # keys from Matbench Discovery's data/datasets.yml
+model_params: 5000000                # number of parameters
+notes:
+  description: Anything a reader should know, e.g. whether the model includes dispersion.

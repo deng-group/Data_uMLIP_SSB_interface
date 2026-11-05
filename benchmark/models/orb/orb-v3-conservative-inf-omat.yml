@@ -1,0 +1,8 @@
+model_name: Orb-v3 conservative (inf, OMat)
+model_key: orb-v3-conservative-inf-omat
+checkpoint: downloaded automatically by orb-models
+notes:
+  description: One of the six uMLIPs benchmarked in the paper.
+environment:
+  dependencies:
+    - orb-models
